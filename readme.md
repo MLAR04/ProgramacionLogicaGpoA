@@ -2,6 +2,7 @@
 
 ## Branch Structure
 
-├── p1 
+    .
+    ├── p1 
     
-    └──Empty(for nowxd)
+        └──Empty(for nowxd)
