@@ -1,6 +1,6 @@
 import flet as ft
 import logic
-from functools import reduce   # Importar reduce de la librería estándar
+from functools import reduce  
 
 
 def main(page: ft.Page):
