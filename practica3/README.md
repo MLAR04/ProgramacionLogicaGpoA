@@ -1,8 +1,8 @@
-##Ejercicios de Programación en Python
+Ejercicios de Programación en Python
 
 Este repositorio contiene varios ejercicios de programación en Python que demuestran el uso de funciones de recursividad
 
-Conceptos Demostrados
+##Conceptos Demostrados
 Funciones de orden superior: map, filter, reduce
 Funciones lambda: Funciones anónimas para operaciones simples
 Recursividad: Funciones que se llaman a sí mismas
