@@ -1,7 +1,7 @@
 # Programación Logica Gpo A - Practica#3
 # 2276067  -Martinez Rios Emely Jimena
 
-## INSTRUCCIONES
+# INSTRUCCIONES
 # Desarrolla en python los siguientes ejercicios:
 Nota: Los ejercicios pueden estar en scripts individuales o en scripts separados, pero se debe comentar que ejercicio se está resolviendo.
 
