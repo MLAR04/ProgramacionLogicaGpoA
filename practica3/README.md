@@ -1,6 +1,4 @@
-Ejercicios de Programación en Python
-
-## Appendix
+##Ejercicios de Programación en Python
 
 Este repositorio contiene varios ejercicios de programación en Python que demuestran el uso de funciones de recursividad
 
