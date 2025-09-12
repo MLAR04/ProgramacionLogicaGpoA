@@ -1,8 +1,7 @@
 # Programación Logica Gpo A - Practica#3
 # 2276067  -Martinez Rios Emely Jimena
 
-# INSTRUCCIONES
-# Desarrolla en python los siguientes ejercicios:
+# Instrucciones: Desarrolla en python los siguientes ejercicios:
 Nota: Los ejercicios pueden estar en scripts individuales o en scripts separados, pero se debe comentar que ejercicio se está resolviendo.
 
 Escribe una función suma(a,b) que solo dependa de sus parámetros.
