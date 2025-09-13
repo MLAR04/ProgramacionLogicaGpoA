@@ -8,7 +8,7 @@ pero se debe comentar qué ejercicio se está resolviendo.
 
 * DONE Escribir una función suma(a,b) que solo dependa de sus parámetros.
 * DONE Implementar una función recursiva factorial(n) que calcule el factorial.
-* TODO Escribir una función recursiva que calcule el n-ésimo número de fibonacci
+* DONE Escribir una función recursiva que calcule el n-ésimo número de fibonacci
 * TODO Dada la lista [1,2,3,4,5,6,7,8,9,10]
 - [ ] Generar una nueva lista con los cuadrados de cada número usando map
 - [ ] Filtra los números pares usando *filter*
