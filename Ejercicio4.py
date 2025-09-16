@@ -34,8 +34,9 @@ print(conectarse_internet(False, True, True))
 print(conectarse_internet(True, False, False))  
 print(conectarse_internet(False, False, True))  
 
-#cano was here
+
 
     
+
 
 
