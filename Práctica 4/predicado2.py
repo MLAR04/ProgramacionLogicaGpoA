@@ -1,5 +1,5 @@
 '''
-Instrucciones: Una persona puede votar si tiene más de 18 años, tiene credencial para votar y está en la lista nominal
+Predicado: Una persona puede votar si tiene más de 18 años, tiene credencial para votar y está en la lista nominal
 '''
 
 def voto(e, c, l):

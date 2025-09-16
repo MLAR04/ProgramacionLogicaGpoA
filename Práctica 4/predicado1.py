@@ -1,5 +1,5 @@
 '''
-Predicados: Un número es múltiplo de 6 si es divisible entre 2 y entre 3
+Predicado: Un número es múltiplo de 6 si es divisible entre 2 y entre 3
 '''
 import sys
 
