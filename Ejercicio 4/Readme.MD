@@ -1,3 +1,5 @@
+# Practica 4 - Angel Garcia Romero
+
 Descomposicion de Reglas Logicas
 
 Un número es múltiplo de 6 si es divisible entre 2 y entre 3.
@@ -27,4 +29,5 @@ Conectarse a Internet
 Reglas:
 Wifi activado.
 Cable ethernet conectado.
+
 El módem funciona.
