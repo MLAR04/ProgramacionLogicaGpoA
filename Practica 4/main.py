@@ -4,8 +4,7 @@ Regla general:
 M=R1 AND R2
 Reglas:
 El número es divisible entre 2
-El número es divisible entre 3
-"""
+El número es divisible entre 3"""
 print("=== Caso 1: Número múltiplo de 6 ===")
 n = int(input("Ingresa un número: "))
 R1 = (n % 2 == 0)   # divisible entre 2
@@ -21,8 +20,7 @@ M= R1 AND R2 AND R3
 Reglas:
 Tiene más de 18 años.
  Tiene credencial de elector.
-Está en la lista nominal.
-"""
+Está en la lista nominal."""
 print("=== Caso 2: Derecho a votar ===")
 R1 = input("¿Tiene más de 18 años? (Si/No): ").lower() == "si"
 R2 = input("¿Tiene credencial de elector? (Si/No): ").lower() == "si"
@@ -39,7 +37,6 @@ Reglas:
 Wifi activado.
 Cable ethernet conectado.
 El módem funciona."""
-
 print("=== Caso 3: Conexión a Internet ===")
 R1 = input("¿Wifi activado? (Si/No): ").lower() == "si"
 R2 = input("¿Cable ethernet conectado? (Si/No): ").lower() == "si"
