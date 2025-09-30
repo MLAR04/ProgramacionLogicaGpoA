@@ -26,7 +26,6 @@ while True:
         print("Si tienes sintomas que no sean los de las opciones no te puedo ayudar")
         sys.exit()
     elif sintomas in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
-        print("Algun otro sintoma?")
         opciones = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f, 'g': g}
         sintomas_seleccionados.append(opciones[sintomas])
     else:
