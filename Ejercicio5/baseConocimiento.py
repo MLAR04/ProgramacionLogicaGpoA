@@ -33,13 +33,16 @@ while True:
 
 print("Regla 1.")
 te_sientes_mal()
+
 print("-----------------")
 print("Regla 2.")
 estas_enfermo(sintomas_seleccionados)
+
 print("-----------------")
 #Si la fiebre es mayor a 37.5 se agrega fiebre a sintomas seleccionados
 print("Regla 3.")
 fiebre_alta(sintomas_seleccionados)
+
 print("-----------------")
 print("Regla 4, 5, 6, 7.")
 enfermedades = ['gripe', 'covid', 'migraña', 'resfriado']
