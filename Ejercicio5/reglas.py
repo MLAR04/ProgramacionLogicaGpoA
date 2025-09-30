@@ -33,6 +33,7 @@ def fiebre_alta(x):
         print("No tienes fiebre")
 
 def diagnosticar_enfermedad_especifica(enfermo, sintomas_usuario, nombre):
+    "Si tienes x sintomas --> tienes enfermedad y"
     if nombre in enfermo:
         sintomas = enfermo[nombre]
         if set(sintomas) == set(sintomas_usuario):
