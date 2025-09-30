@@ -1,7 +1,6 @@
 Base de Conocimiento (Diagnostico de Enfermedades Comunes)
-
+By: Alfonso Cano
 Ejecutar el codigo y marcar la casilla según tus sintomas, el programa se guia a través de lo siguiente:
-
 Diagnostico de Enfermedades Comunes (Gripe, Covid, Migraña, resfriado)
 
 Regla: 
