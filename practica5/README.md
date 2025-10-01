@@ -7,6 +7,8 @@ Enfermedades:
 - Migraña = 3 , 5
 - Resfriado = 2 , 4 , 6
 
+Sintomas: 
+
 - 1.Fiebre
 - 2.Tos
 - 3.Dolor de cabeza
@@ -27,3 +29,4 @@ REGLAS:
 
 
  
+
