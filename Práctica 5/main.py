@@ -8,13 +8,13 @@ from datos import enfermedades
 
 def main(page: ft.Page):
     page.title = "Práctica 5 - Diagnostico de Enfermedades Comunes"
-    page.theme_mode = "light"
+    page.theme_mode = "dark"
     page.padding = 20
-    page.bgcolor = "#FFFFFF"
+    page.bgcolor = "#000000"
     
     #UI
     header = ft.Row(
-        controls=[ft.Text("Diagnostico de Enfermedades Comunes", size=24, weight="bold", color="#000000")],
+        controls=[ft.Text("Diagnostico de Enfermedades Comunes", size=24, weight="bold", color="#FFFFFF")],
         alignment="spaceBetween"
     )
     page.add(header, ft.Text("Selecciona tus síntomas:", size=20, weight="bold"))
