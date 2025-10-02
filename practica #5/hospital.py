@@ -1,10 +1,10 @@
 import flet as ft
 
 enfermedades = {
-    "gripe": ("Dolor de cabeza","Tos"),
-    "covid": ("Perdida de olfato","Cansancio","Tos","Fiebre"),
-    "migrana" :("Dolor de cabeza","Nauseas"),
-    "resfriado":("Congestion nasal","Tos","Fiebre")
+    "Gripe": ("Dolor de cabeza","Tos"),
+    "Covid": ("Perdida de olfato","Cansancio","Tos","Fiebre"),
+    "Migraña" :("Dolor de cabeza","Nauseas"),
+    "Resfriado":("Congestion nasal","Tos","Fiebre")
 }
 
 class MyButton(ft.ElevatedButton):
