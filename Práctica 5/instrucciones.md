@@ -23,8 +23,8 @@ Covid:
 - Fiebre
 
 Migraña:
--Nauseas
--Dolor de cabeza
+- Nauseas
+- Dolor de cabeza
 
 Resfriado:
 - Congestión Nasal
