@@ -17,3 +17,9 @@ Con la base de conocimiento generada en clase, sobre enfermedades, los síntomas
 - Los enfermos tienen síntomas
 - Los enfermos de covid tienen pérdida de olfato
 - Los enfermos con congestión nasal tienen resfriado
+
+## Uso del programa
+`python practica5.py <sintoma 1> <sintoma 2>`
+
+1. Si son síntomas como "congestion nasal" se coloca entre comillas.
+2. Escribir los síntomas sin acentos diacríticos o tildes. Ej. "congestion nasal".
