@@ -1,0 +1,45 @@
+========================================================
+Base de Conocimiento - Práctica SLD (Plato del Buen Comer)
+========================================================
+
+== HECHOS: GRUPOS ==
+(["grupo", "frutas"], [])
+(["grupo", "verduras"], [])
+(["grupo", "cereales"], [])
+(["grupo", "leguminosas"], [])
+(["grupo", "origen_animal"], [])
+
+== HECHOS: ALIMENTOS (Ejemplos) ==
+(["alimento", "frutas", "manzana"], [])
+(["alimento", "frutas", "sandía"], [])
+(["alimento", "frutas", "plátano"], [])
+(["alimento", "verduras", "tomate"], [])
+(["alimento", "verduras", "lechuga"], [])
+(["alimento", "leguminosas", "frijol"], [])
+(["alimento", "origen_animal", "pollo"], [])
+(["alimento", "origen_animal", "pescado"], [])
+(["alimento", "cereales", "arroz"], [])
+(["alimento", "cereales", "maíz"], [])
+
+== HECHOS: COMIDAS (Contenido) ==
+# Comida saludable
+(["comida", "comida1"], [])
+(["contiene", "comida1", "frutas"], [])
+(["contiene", "comida1", "verduras"], [])
+(["contiene", "comida1", "cereales"], [])
+
+# Comida no saludable
+(["comida", "comida2"], [])
+(["contiene", "comida2", "origen_animal"], [])
+(["contiene", "comida2", "cereales"], [])
+
+== REGLAS ==
+(["saludable", "?X"], [
+    ["comida", "?X"],
+    ["contiene", "?X", "?G1"],
+    ["grupo", "?G1"],
+    ["contiene", "?X", "?G2"],
+    ["grupo", "?G2"],
+    ["contiene", "?X", "?G3"],
+    ["grupo", "?G3"]
+])
