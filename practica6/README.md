@@ -1,4 +1,4 @@
-# Practica de Resolucion SLD: El plato del buen comer
+# Practica de Resolucion SLD: El Plato Del Buen Comer
 
 El sistema realiza inferencias lógicas con base en tus respuestas sobre qué grupos de alimentos consumiste 
 durante el día y determina si tu alimentación fue **saludable** o **incompleta**.
