@@ -1,37 +1,28 @@
-Hechos y Leyes (Base de conocimiento)
--------------------------------------
+  ##Hechos y Leyes (Base de conocimiento)
 
 Hecho 1:
 Las frutas y verduras, los cereales y las leguminosas y alimentos de origen animal
 son los 3 grupos del plato del buen comer.
-
 Hecho 2:
 Comer de los tres grupos en cada comida principal ayuda a tener una alimentación equilibrada.
 
 Ley 1:
 La sandía, el plátano, las uvas, la papaya, el mango, el durazno,
 la manzana, las fresas o las guayabas son frutas.
-
 Ley 2:
 El tomate, la lechuga, el nopal, la calabaza, el apio, la zanahoria o los chiles son verduras.
-
 Ley 3:
 El frijol, los garbanzos, las lentejas, las habas o las alubias son leguminosas.
-
 Ley 4:
 El pollo, el pescado, el huevo, el queso, la leche o la carne son alimentos de origen animal.
-
 Ley 5:
 El maíz, el trigo, el arroz o la avena son cereales.
-
 Ley 6:
 Si comes cosas de los tres grupos (frutas, verduras y cereales) entonces comes saludable.
-
 Ley 7:
 Si sólo comes productos de origen animal entonces debes comer más frutas, verduras y cereales.
-
 Ley 8:
 Si sólo comes frutas y verduras entonces debes comer cereales y productos de origen animal.
-
 Ley 9:
 Si sólo comes cereales entonces debes comer frutas, verduras y productos de origen animal.
+
