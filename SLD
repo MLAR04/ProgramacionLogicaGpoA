@@ -1,9 +1,0 @@
-# Resolución SLD (Selective Linear Definite-Clause Resolution)
-## Tema: El Plato del Buen Comer
-**Paola Josseline Acosta López**
-
-Descripción
-Este proyecto implementa la resolución SLD en Python, aplicando razonamiento lógico con cláusulas de Horn.  
-El sistema determina si un alimento pertenece al **Plato del Buen Comer**, utilizando una base de conocimiento y el proceso de unificación.
-
-
