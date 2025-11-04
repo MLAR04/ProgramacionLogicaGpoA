@@ -1,0 +1,16 @@
+Hechos:
+verdura(zanahoria)
+verdura(espinaca)
+verdura(jitomate)
+verdura(pepino)
+proteina(pollo)
+proteina(pescado)
+proteina(huevo)
+cereal(arroz)
+cereal(avena)
+cereal(tortilla)
+
+Reglas:
+platillo_sano(X) :- verdura(X)
+platillo_sano(X) :- proteina(X)
+platillo_sano(X) :- cereal(X)
