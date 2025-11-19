@@ -17,30 +17,30 @@ Reglas:
   color_intensity <= 3.82 → class 1
   color_intensity > 3.82 → class 0
 Análisis:
-  •	Árbol demasiado simple.
-  •	Solo usa una característica.
-  •	Baja capacidad predictiva.
+1. Árbol demasiado simple.
+2. Solo usa una característica.
+3. Baja capacidad predictiva.
 
-• 2. max_depth = 3
+2. max_depth = 3
      Precisión: 0.94
 Reglas principales:
-  •	color_intensity
-  •	proline
-  •	ash
-  •	flavanoids
+  1. color_intensity
+  2. proline
+  3. ash
+  4. flavanoids
 Análisis:
-  •	Excelente equilibrio entre profundidad y precisión.
-  •	Reglas claras e interpretables.
-  •	El mejor modelo de los tres.
+  1. Excelente equilibrio entre profundidad y precisión.
+  2. Reglas claras e interpretables.
+  3. El mejor modelo de los tres.
 
-• 3. max_depth = None
+3. max_depth = None
      Precisión: 0.94
 Reglas: 
      Árbol muy profundo, agrega alcohol y más condiciones.
 Análisis:
-•	Tiende al sobreajuste.
-•	Sin mejora real de precisión.
-•	Menos interpretable.
+  1. Tiende al sobreajuste.
+  2. Sin mejora real de precisión.
+  3. Menos interpretable.
 
 ## Opinion de los resultados
 • El dataset Wine es muy adecuado para árboles de decisión porque:
@@ -75,7 +75,7 @@ Análisis:
   13. proline (aminoácido prolina)
       
  ## Clases:
- 0, 1 y 2 (tres tipos de vino) 
+ •  0, 1 y 2 (tres tipos de vino) 
 
 
 
