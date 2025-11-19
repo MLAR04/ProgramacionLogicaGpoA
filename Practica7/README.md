@@ -11,7 +11,7 @@ El objetivo es analizar cómo cambia la precisión y la complejidad del modelo a
 3. pip install scipy
 
 ## Los 3 ejemplos que realice fueron:
-1. max_depth = 1 
+  # 1. max_depth = 1 
       Precisión: 0.66
 Reglas:
   color_intensity <= 3.82 → class 1
@@ -21,7 +21,7 @@ Análisis:
 2. Solo usa una característica.
 3. Baja capacidad predictiva.
 
-2. max_depth = 3
+  # 2. max_depth = 3
      Precisión: 0.94
 Reglas principales:
   1. color_intensity
@@ -33,7 +33,7 @@ Análisis:
   2. Reglas claras e interpretables.
   3. El mejor modelo de los tres.
 
-3. max_depth = None
+  # 3. max_depth = None
      Precisión: 0.94
 Reglas: 
      Árbol muy profundo, agrega alcohol y más condiciones.
