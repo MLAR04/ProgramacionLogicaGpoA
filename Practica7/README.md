@@ -43,7 +43,7 @@ Análisis:
   3. Menos interpretable.
 
 ## Opinion de los resultados
-• El dataset Wine es muy adecuado para árboles de decisión porque:
+El dataset Wine es muy adecuado para árboles de decisión porque:
     1. Es numérico
     2. Tiene clases claras y balanceadas
     3. No tiene datos faltantes
