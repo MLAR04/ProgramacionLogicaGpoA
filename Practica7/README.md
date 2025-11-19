@@ -6,12 +6,12 @@ El objetivo es analizar cómo cambia la precisión y la complejidad del modelo a
 
 ## Instalación
 
-• pip install scikit-learn
-• pip install numpy
-• pip install scipy
+1. pip install scikit-learn
+2. pip install numpy
+3. pip install scipy
 
 ## Los 3 ejemplos que realice fueron:
-•  1. max_depth = 1 
+1. max_depth = 1 
       Precisión: 0.66
 Reglas:
   color_intensity <= 3.82 → class 1
