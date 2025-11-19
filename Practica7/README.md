@@ -57,7 +57,9 @@ El dataset Wine es muy adecuado para árboles de decisión porque:
 
 ## ¿Mi base de conocimiento cumple para un árbol de decisión? y Justificacion 
     Si, si cumple, ya que tiene 13 caracteristicas para dividir los datos, las clases son claras y se diferencian quimicamente, 
-    no contiene valores faltantes ni excesivo. Ademas que el modelo logra precision con la profundidad moderada, el arbol genera       reglas coheremtes y faciles de interpretar. Por ultimo las variables quimicas como: color_intensity, flavanoids y proline          logra la definicion clara para clasificar los vinos. 
+    no contiene valores faltantes ni excesivo. 
+    Ademas que el modelo logra precision con la profundidad moderada, el arbol genera reglas coheremtes y faciles de interpretar. 
+    Por ultimo las variables quimicas como: color_intensity, flavanoids y proline logra la definicion clara para clasificar los        vinos. 
 
 ## Características:
 13 variables químicas, las cuales son: 
