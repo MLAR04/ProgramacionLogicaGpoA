@@ -1,8 +1,8 @@
 # Árbol de Decisión – Wine Dataset
   ## Emely Jimena Martinez Rios-22760567
 
-Este proyecto entrena un modelo de clasificación usando un Árbol de Decisión sobre el dataset Wine de Scikit-learn.
-El objetivo es analizar cómo cambia la precisión y la complejidad del modelo al ajustar el parámetro max_depth.
+  Este proyecto entrena un modelo de clasificación usando un Árbol de Decisión sobre el dataset Wine de Scikit-learn.
+  El objetivo es analizar cómo cambia la precisión y la complejidad del modelo al ajustar el parámetro max_depth.
 
 ## Instalación
 
@@ -56,7 +56,7 @@ El dataset Wine es muy adecuado para árboles de decisión porque:
     9. No se sobreajusta
 
 ## ¿Mi base de conocimiento cumple para un árbol de decisión? y Justificacion 
-  • Si, si cumple, ya que tiene 13 caracteristicas para dividir los datos, las clases son claras y se diferencian quimicamente, 
+    Si, si cumple, ya que tiene 13 caracteristicas para dividir los datos, las clases son claras y se diferencian quimicamente, 
     no contiene valores faltantes ni excesivo. Ademas que el modelo logra precision con la profundidad moderada, el arbol genera       reglas coheremtes y faciles de interpretar. Por ultimo las variables quimicas como: color_intensity, flavanoids y proline          logra la definicion clara para clasificar los vinos. 
 
 ## Características:
@@ -76,7 +76,7 @@ El dataset Wine es muy adecuado para árboles de decisión porque:
   13. proline (aminoácido prolina)
       
  ## Clases:
- •  0, 1 y 2 (tres tipos de vino) 
+    0, 1 y 2 (tres tipos de vino) 
 
 
 
