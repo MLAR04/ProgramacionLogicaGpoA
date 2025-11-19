@@ -1,10 +1,11 @@
-## Árbol de Decisión – Wine Dataset
-  # Emely Jimena Martinez Rios-22760567
+# Árbol de Decisión – Wine Dataset
+  ## Emely Jimena Martinez Rios-22760567
 
 Este proyecto entrena un modelo de clasificación usando un Árbol de Decisión sobre el dataset Wine de Scikit-learn.
 El objetivo es analizar cómo cambia la precisión y la complejidad del modelo al ajustar el parámetro max_depth.
 
 ## Instalación
+
 • pip install scikit-learn
 • pip install numpy
 • pip install scipy
