@@ -49,10 +49,10 @@ Análisis:
     3. No tiene datos faltantes
     4. El árbol produce reglas interpretables
     5. Las características químicas permiten separaciones lógicas
-• El modelo con max_depth = 3 es el mejor, ya que logra:
-    1. Alta precisión
-    2. Reglas comprensibles
-    3. No se sobreajusta
+    6. El modelo con max_depth = 3 es el mejor, ya que logra:
+    7. Alta precisión
+    8. Reglas comprensibles
+    9. No se sobreajusta
 
 ## ¿Mi base de conocimiento cumple para un árbol de decisión? y Justificacion 
   • Si, si cumple, ya que tiene 13 caracteristicas para dividir los datos, las clases son claras y se diferencian quimicamente, 
