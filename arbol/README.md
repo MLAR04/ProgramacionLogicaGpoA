@@ -29,4 +29,99 @@ No.
 La regresión predice valores numéricos continuos, pero este dataset tiene clases.  
 Por lo tanto, la regresión no es adecuada para este problema.
 
+RESULTADO
+Reglas del árbol con max_depth=2:
 
+|--- color_intensity <= 3.82
+|   |--- proline <= 1002.50
+|   |   |--- class: 1
+|   |--- proline >  1002.50
+|   |   |--- class: 0
+|--- color_intensity >  3.82
+|   |--- flavanoids <= 1.40
+|   |   |--- class: 2
+|   |--- flavanoids >  1.40
+|   |   |--- class: 0
+
+Precisión en datos de prueba: 0.8611111111111112
+
+
+=======================
+ PRUEBAS CON max_depth
+=======================
+
+
+==============================
+ Árbol con max_depth=1
+==============================
+|--- color_intensity <= 3.82
+|   |--- class: 1
+|--- color_intensity >  3.82
+|   |--- class: 0
+
+Precisión: 0.6666666666666666
+
+==============================
+ Árbol con max_depth=2
+==============================
+|--- color_intensity <= 3.82
+|   |--- proline <= 1002.50
+|   |   |--- class: 1
+|   |--- proline >  1002.50
+|   |   |--- class: 0
+|--- color_intensity >  3.82
+|   |--- flavanoids <= 1.40
+|   |   |--- class: 2
+|   |--- flavanoids >  1.40
+|   |   |--- class: 0
+
+Precisión: 0.8611111111111112
+
+==============================
+ Árbol con max_depth=3
+==============================
+|--- color_intensity <= 3.82
+|   |--- proline <= 1002.50
+|   |   |--- ash <= 3.07
+|   |   |   |--- class: 1
+|   |   |--- ash >  3.07
+|   |   |   |--- class: 0
+|   |--- proline >  1002.50
+|   |   |--- class: 0
+|--- color_intensity >  3.82
+|   |--- flavanoids <= 1.40
+|   |   |--- class: 2
+|   |--- flavanoids >  1.40
+|   |   |--- proline <= 724.50
+|   |   |   |--- class: 1
+|   |   |--- proline >  724.50
+|   |   |   |--- class: 0
+
+Precisión: 0.9444444444444444
+
+==============================
+ Árbol con max_depth=None
+==============================
+|--- color_intensity <= 3.82
+|   |--- proline <= 1002.50
+|   |   |--- ash <= 3.07
+|   |   |   |--- class: 1
+|   |   |--- ash >  3.07
+|   |   |   |--- class: 0
+|   |--- proline >  1002.50
+|   |   |--- class: 0
+|--- color_intensity >  3.82
+|   |--- flavanoids <= 1.40
+|   |   |--- class: 2
+|   |--- flavanoids >  1.40
+|   |   |--- proline <= 724.50
+|   |   |   |--- alcohol <= 13.14
+|   |   |   |   |--- class: 1
+|   |   |   |--- alcohol >  13.14
+|   |   |   |   |--- class: 0
+|   |   |--- proline >  724.50
+|   |   |   |--- class: 0
+
+Precisión: 0.9444444444444444
+
+Process finished with exit code 0
